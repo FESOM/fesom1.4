@@ -1,2 +1,0 @@
-/sw/rhel6-x64/gcc/binutils-2.24-gccsys/bin/ar qc libstopwatch.a  CMakeFiles/stopwatch.dir/Stopwatch.cpp.o CMakeFiles/stopwatch.dir/StopwatchManager.cpp.o CMakeFiles/stopwatch.dir/StopwatchManagerHelper.cpp.o
-/sw/rhel6-x64/gcc/binutils-2.24-gccsys/bin/ranlib libstopwatch.a

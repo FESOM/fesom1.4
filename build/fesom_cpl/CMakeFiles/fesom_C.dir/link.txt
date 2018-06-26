@@ -1,2 +1,0 @@
-/sw/rhel6-x64/gcc/binutils-2.24-gccsys/bin/ar qc libfesom_C.a  CMakeFiles/fesom_C.dir/fort_part.c.o CMakeFiles/fesom_C.dir/psolve.c.o
-/sw/rhel6-x64/gcc/binutils-2.24-gccsys/bin/ranlib libfesom_C.a

@@ -1,2 +1,0 @@
-/sw/rhel6-x64/gcc/binutils-2.24-gccsys/bin/ar qc liboutputwriter.a  CMakeFiles/outputwriter.dir/OutputWriterFC.cpp.o CMakeFiles/outputwriter.dir/OutputWriter.cpp.o CMakeFiles/outputwriter.dir/OutputWriterManager.cpp.o CMakeFiles/outputwriter.dir/OceanLevelsOutputWriter.cpp.o CMakeFiles/outputwriter.dir/OutputWriterUtils.cpp.o
-/sw/rhel6-x64/gcc/binutils-2.24-gccsys/bin/ranlib liboutputwriter.a
