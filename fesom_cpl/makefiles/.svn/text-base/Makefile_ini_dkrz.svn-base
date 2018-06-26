@@ -1,0 +1,94 @@
+#
+# Makefile for FEOM on Blizzard
+#
+
+FOSD = /pf/a/a270038/solver/FoSSI-1.4b
+
+include $(FOSD)/make_fossi.inc
+
+OPT = -q64 -qdpc -O3 -qtune=auto -qsuffix=f=f90 -qrealsize=8 -qintsize=4
+### OPT = -g -C -q64 -qsuffix=f=f90 -qrealsize=8
+MPI_INC = /usr/lpp/ppe.poe/include/thread64
+
+CPP = /usr/lib/cpp -P -C
+
+
+METLIB = metis-64
+LIB_FOSSI = -lFoSSI1.32b-IBM-64
+
+PETSCCONF_INC=/pf/a/a270038/solver/petsc-2.2.1/bmake/aix5.3.0.0
+PETSC_INC   = $(SOFT)/petsc-2.2.1/include
+PETSC_LPATH = /pf/a/a270038/solver/petsc-2.2.1/lib/libO/aix5.3.0.0
+
+# NetCDF library and include paths
+NCLIB   = /pf/a/a270038/soft/netcdf-3.6.3/lib
+NCINC   = /pf/a/a270038/soft/netcdf-3.6.3/include
+
+#OASIS3-MCT
+OASIS3_ROOT    = $(HOME)/fesom_echam6_oasis3-mct/oasis3-mct
+OASIS3_INC     = -I$(OASIS3_ROOT)/prism/ibm_power6/build/lib/psmile.MPI1
+OASIS3_LIB     = -L$(OASIS3_ROOT)/prism/ibm_power6/lib -lpsmile.MPI1 -lscrip -lmct -lmpeu 
+
+#---------------------------------------------------
+
+LIB_DIRS = -L$(FOSD)/lib $(RPATH)
+LIB_METIS = -L$(METIS_LPATH) -l$(METLIB)
+LIB_PET= -I$(PETSC_INC) -L$(PETSC_LPATH) -lpetscksp -lpetscsnes -lpetscvec -lpetscmat  -lpetsc -lpetscdm \
+-lpetscfortran $(X11_PATH) -lX11
+
+LIBS_SLV = $(LIB_DIRS) $(LIB_FOSSI) $(LIB_METIS) $(LIB_PET) $(LIB_LAP) $(LIB_MPI) $(LIB_EXTRA)
+
+
+
+FOS_INC = $(FOSD)/include 
+MPI_INC = /usr/lpp/ppe.poe/include/thread64
+
+
+FC = mpxlf90_r
+LD = $(FC)
+
+LIBS       = -lmpi
+#LIBS       = -lPEPCF90 -L/opt/lam/lib -llamf77mpi -lmpi -llam -lpthread
+#INCLUDES   = -I/opt/lam/include
+
+
+SLV=petsc
+#SLV=PILUT
+
+######################################################
+# modules
+MODULES =	oce_modules.o      \
+		gen_modules_config.o           	                 
+
+# objects
+OBJECTS=   	gen_partitioning.o          		\
+		fesom_partition_init.o
+
+######################################################
+
+
+EXE = fesom.x
+
+CPP = /usr/lib/cpp -P -C
+CPP_DEFS= -DPETSC
+
+$(EXE) : $(MODULES) $(OBJECTS) 
+	rm -f $@
+	$(LD)  $(OPT)  -o $@  $(MODULES) $(OASIS3_LIB) $(OBJECTS) -L$(NCLIB) -lnetcdf $(LIBS_SLV) \
+	-lessl
+
+
+.SUFFIXES: .F90 .o 
+
+.F90.o :
+	$(CPP) $(CPP_DEFS) -I$(PETSC_INC) -I$(PETSCCONF_INC) -I$(FOS_INC) -I$(MPI_INC) -I$(NCINC)< $*.F90 > $*.f90
+	$(FC) $(OPT) -c $*.f90 -I$(FOS_INC) -I$(NCINC) $(OASIS3_INC)
+	rm -f  $*.f90
+
+
+
+clean :
+	rm -f *.o *.mod *~ *.f90
+
+
+

@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib
+END
+ometis.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/ometis.c
+END
+mfm2.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mfm2.c
+END
+mbalance.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mbalance.c
+END
+kwayrefine.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/kwayrefine.c
+END
+mcoarsen.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mcoarsen.c
+END
+ccgraph.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/ccgraph.c
+END
+refine.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/refine.c
+END
+proto.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/proto.h
+END
+stat.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/stat.c
+END
+fortran.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/fortran.c
+END
+util.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/util.c
+END
+frename.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/frename.c
+END
+mpmetis.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mpmetis.c
+END
+kwayvolfm.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/kwayvolfm.c
+END
+mfm.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mfm.c
+END
+mincover.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mincover.c
+END
+kvmetis.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/kvmetis.c
+END
+mbalance2.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mbalance2.c
+END
+sfm.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/sfm.c
+END
+debug.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/debug.c
+END
+minitpart2.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/minitpart2.c
+END
+estmem.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/estmem.c
+END
+compress.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/compress.c
+END
+match.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/match.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/CMakeLists.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/Makefile
+END
+kwayfm.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/kwayfm.c
+END
+separator.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/separator.c
+END
+graph.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/graph.c
+END
+pmetis.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/pmetis.c
+END
+fm.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/fm.c
+END
+subdomains.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/subdomains.c
+END
+pqueue.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/pqueue.c
+END
+minitpart.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/minitpart.c
+END
+mrefine2.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mrefine2.c
+END
+memory.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/memory.c
+END
+mkmetis.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mkmetis.c
+END
+mmatch.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mmatch.c
+END
+rename.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/rename.h
+END
+mmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mmd.c
+END
+myqsort.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/myqsort.c
+END
+mkwayrefine.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mkwayrefine.c
+END
+mkwayfmh.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mkwayfmh.c
+END
+meshpart.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/meshpart.c
+END
+parmetis.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/parmetis.c
+END
+mrefine.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mrefine.c
+END
+balance.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/balance.c
+END
+kwayvolrefine.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/kwayvolrefine.c
+END
+bucketsort.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/bucketsort.c
+END
+metis.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/metis.h
+END
+defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/defs.h
+END
+timing.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/timing.c
+END
+macros.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/macros.h
+END
+struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/struct.h
+END
+initpart.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/initpart.c
+END
+coarsen.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/coarsen.c
+END
+mutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mutil.c
+END
+srefine.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/srefine.c
+END
+mesh.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/mesh.c
+END
+kmetis.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Lib/kmetis.c
+END

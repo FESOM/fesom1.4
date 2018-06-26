@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/test.c
+END
+makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/makefile.in
+END
+parms.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/parms.c
+END
+dd-petsc.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/dd-petsc.c
+END
+matfileCmplx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/matfileCmplx
+END
+matfileReal
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/matfileReal
+END
+parms_opts
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/parms_opts
+END
+fparms.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/fparms.c
+END
+ftest.F
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/ftest.F
+END
+protos.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/protos.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/README
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/makefile
+END
+readmat.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/readmat.c
+END

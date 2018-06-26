@@ -1,0 +1,82 @@
+
+# Compiler and Linker
+CC = icc 
+FC = ifort
+LD = $(FC)
+
+# Optimization specs for compiler
+OPT  = -r8 -i4 -O3 -no-prec-div -no-prec-sqrt -fast-transcendentals -xHost -ip
+COPT = -O3 -DLINUX -DUNDER_ -DMPI2 -Iinclude
+
+######################################################
+
+# Include path for MPI header file
+MPIROOT            = /sw/rhel6-x64/intel/impi/2017.0.098/impi/2017.0.098/intel64/
+MPI_LIB            = -Wl,-rpath,$(MPIROOT)/lib -L$(MPIROOT)/lib -lmpigf -lmpi -lmpigi -ldl -lrt -lpthread
+MPI_INCLUDE        = -I$(MPIROOT)/include
+
+#MPI_INC = $(MPICH_DIR)
+
+# NetCDF library and include definitions
+#    (use 'module load netcdf')
+
+NETCDFROOT         = /sw/rhel6-x64/netcdf/netcdf_c-4.3.2-gcc48/
+NETCDFFROOT        = /sw/rhel6-x64/netcdf/netcdf_fortran-4.4.2-intel14/
+NCLIB              = -Wl,-rpath,$(NETCDFFROOT)/lib -L$(NETCDFFROOT)/lib -lnetcdff -Wl,-rpath,$(NETCDFROOT)/lib -L$(NETCDFROOT)/lib -lnetcdf
+NCINC              = -I$(NETCDFFROOT)/include
+
+# Further libraries
+LIBS = -Wl,-rpath,/sw/rhel6-x64/numerics/atlas_lapack-3.10.2-gcc48/lib -L/sw/rhel6-x64/numerics/atlas_lapack-3.10.2-gcc48/lib/ -latlas -lf77blas
+
+# Definition of pARMS include and library
+PARMS_DIR = ../lib/parms
+PARMS_INC = -I$(PARMS_DIR)/include -I$(PARMS_DIR)/src/include
+PARMS_DEFS = -DPARMS -DUSE_MPI -DREAL=double -DDBL -DHAS_BLAS -DFORTRAN_UNDERSCORE -DUNDER_ -DVOID_POINTER_SIZE_8  -DSGI
+LIB_PARMS = -L$(PARMS_DIR)/lib -lparms
+
+# Definition for Metis library
+METIS_LPATH = ../lib/metis-4.0
+LIB_METIS = -L$(METIS_LPATH) -lmetis
+
+#OASIS3-MCT
+OASIS3_ROOT    = $(HOME)/fesom_echam6_oasis3-mct/oasis3-mct
+OASIS3_INC     = -I$(OASIS3_ROOT)/prism/hlrn/build/lib/psmile.MPI1 -I$(OASIS3_ROOT)/prism/hlrn/build/lib/mct
+OASIS3_LIB     = -L$(OASIS3_ROOT)/prism/hlrn/lib -lpsmile.MPI1 -lscrip -lmct -lmpeu 
+
+######################################################
+#
+# Preprocessor
+CPP = /usr/bin/cpp -P -C
+
+# Define solver library
+CPP_SOL = -DPARMS
+
+# Options:
+#   -DPARMS  - Define that pARMS solver is used
+#   -DPETSC  - Define that PETSC is used
+
+######################################################
+# Preprocessor definition
+
+CPP_DEFS= -Duse_tracer_fct -Dcalcmeans -Duse_diag -Duse_ice -Duse_ice_fct -Dcpl_str -Dallow_calcmeans -Dallow_diag -D__oasis -Duse_sw_pene
+
+# Options:
+#  -DDEBUG  - Debug mode: enables more screen output
+# -Duse_tracer_gls -Duse_tracer_fct (tg is default)
+# -Duse_ice 
+# -Duse_ice_gls, -Duse_ice_fct (tg is default)
+# -Duse_sw_pene
+# -Duse_cavity
+# -Duse_opbnd_restoring 
+# -Duse_opbnd_tide
+# -Duse_fullfreesurf
+# -Dallow_calcmeans 
+# -Dallow_diag
+# -Dtoy_ocean
+# -Duse_non_hydrostatic (test version)
+# 
+# NOTE:
+# 1) use_fullfreesurf does not support open boundary currently
+# 2) use_cavity only works with sigma grid currently
+######################################################
+

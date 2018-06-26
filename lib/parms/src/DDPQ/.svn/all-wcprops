@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/DDPQ
+END
+sets.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/DDPQ/sets.c
+END
+PQ.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/DDPQ/PQ.c
+END
+ilutpC.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/DDPQ/ilutpC.c
+END
+MatOps.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/DDPQ/MatOps.c
+END
+piluNEW.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/DDPQ/piluNEW.c
+END
+arms2.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/DDPQ/arms2.c
+END
+setblks.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/DDPQ/setblks.c
+END
+misc.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/DDPQ/misc.c
+END
+protos.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/DDPQ/protos.h
+END
+svdInvC.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/DDPQ/svdInvC.c
+END
+globheads.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/DDPQ/globheads.h
+END

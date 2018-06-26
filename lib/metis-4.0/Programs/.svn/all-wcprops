@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs
+END
+onmetis.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs/onmetis.c
+END
+smbfactor.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs/smbfactor.c
+END
+partnmesh.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs/partnmesh.c
+END
+pmetis.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs/pmetis.c
+END
+mesh2dual.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs/mesh2dual.c
+END
+oemetis.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs/oemetis.c
+END
+graphchk.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs/graphchk.c
+END
+io.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs/io.c
+END
+partdmesh.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs/partdmesh.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs/Makefile
+END
+kmetis.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs/kmetis.c
+END
+mesh2nodal.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Programs/mesh2nodal.c
+END

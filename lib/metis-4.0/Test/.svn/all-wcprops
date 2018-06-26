@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Test
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Test/Makefile
+END
+mtest.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Test/mtest.c
+END

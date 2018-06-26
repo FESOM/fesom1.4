@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/Makefile.in
+END
+README_INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/README_INSTALL
+END
+parms_pc.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/parms_pc.c
+END
+parms_pc_schur.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/parms_pc_schur.c
+END
+parms_pc_ras.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/parms_pc_ras.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/README
+END
+gmres.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/gmres.c
+END
+LGPL
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/LGPL
+END
+bicgstab.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/bicgstab.c
+END
+parms_pc_schurras.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/parms_pc_schurras.c
+END
+Makefile.in_hazelhen
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/Makefile.in_hazelhen
+END
+parms_pc_bj.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/parms_pc_bj.c
+END
+fgmres.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/fgmres.c
+END
+Makefile.in_ollie
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/Makefile.in_ollie
+END
+COPYRIGHT
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/COPYRIGHT
+END
+parms_ilu_vcsr.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/parms_ilu_vcsr.c
+END
+Makefile.in_dkrz
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/Makefile.in_dkrz
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/Makefile
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/CMakeLists.txt
+END

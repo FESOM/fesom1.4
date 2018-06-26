@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf
+END
+makefile.linux.sun
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.linux.sun
+END
+makefile.calhoun_ompi_intel
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.calhoun_ompi_intel
+END
+makefile.linux.gcc3
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.linux.gcc3
+END
+makefile.altix
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.altix
+END
+makefile.seaborg
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.seaborg
+END
+makefile.itasca_ompi_intel
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.itasca_ompi_intel
+END
+makefile.o38k
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.o38k
+END
+makefile.calhoun_ompi_gnu
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.calhoun_ompi_gnu
+END
+makefile.blade_ompi_intel
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.blade_ompi_intel
+END
+makefile.bigben
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.bigben
+END
+makefile.regatta
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.regatta
+END
+makefile.linux.gcc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.linux.gcc
+END
+makefile.linux.icc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.linux.icc
+END
+makefile.laptop
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.laptop
+END
+makefile.linux.pathscale
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/conf/makefile.linux.pathscale
+END

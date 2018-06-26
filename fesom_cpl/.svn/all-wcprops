@@ -1,0 +1,533 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl
+END
+fort_part.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/fort_part.c
+END
+job.ll.hlrn
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/job.ll.hlrn
+END
+oce_tidal_boundary.F90
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_tidal_boundary.F90
+END
+gen_modules_config.F90
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_modules_config.F90
+END
+gen_forcing_couple.F90
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_forcing_couple.F90
+END
+oce_landice_water.F90
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_landice_water.F90
+END
+oce_brine_rejection.F90
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_brine_rejection.F90
+END
+cpl_driver.F90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/cpl_driver.F90
+END
+oce_init.F90
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_init.F90
+END
+ice_step.F90
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/ice_step.F90
+END
+oce_mixing_kpp.F90
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_mixing_kpp.F90
+END
+psolve.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/psolve.c
+END
+ice_advection.F90
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/ice_advection.F90
+END
+oce_matrices.F90
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_matrices.F90
+END
+gen_communication.F90
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_communication.F90
+END
+fesom_part_init.job
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/fesom_part_init.job
+END
+oce_salt_balance.F90
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_salt_balance.F90
+END
+oce_passive_tracer.F90
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_passive_tracer.F90
+END
+psolve.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/psolve.h
+END
+ocean_mesh.F90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/ocean_mesh.F90
+END
+oce_neutral_physics.F90
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_neutral_physics.F90
+END
+job_run.hlrn
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/job_run.hlrn
+END
+gen_modules_diagnose.F90
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_modules_diagnose.F90
+END
+ice_thermo_cpl.F90
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/ice_thermo_cpl.F90
+END
+g_meandata.F90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/g_meandata.F90
+END
+fesom_env.F90
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/fesom_env.F90
+END
+gen_modules_rotate_grid.F90
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_modules_rotate_grid.F90
+END
+oce_init_special_case.F90
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_init_special_case.F90
+END
+job.ll.ollie
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/job.ll.ollie
+END
+ice_modules.F90
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/ice_modules.F90
+END
+gen_input.F90
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_input.F90
+END
+oce_open_boundary.F90
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_open_boundary.F90
+END
+ice_solver.F90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/ice_solver.F90
+END
+ice_fct.F90
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/ice_fct.F90
+END
+oce_modules.F90
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_modules.F90
+END
+oce_mesh_aux.F90
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_mesh_aux.F90
+END
+oce_fct.F90
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_fct.F90
+END
+toposervice.F90
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/toposervice.F90
+END
+oce_mesh_setup.F90
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_mesh_setup.F90
+END
+gen_output_mesh.F90
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_output_mesh.F90
+END
+cmor_variables_diag.F90
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/cmor_variables_diag.F90
+END
+gen_modules_read_NetCDF.F90
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_modules_read_NetCDF.F90
+END
+oce_shortwave_pene.F90
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_shortwave_pene.F90
+END
+oce_mixing_pp.F90
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_mixing_pp.F90
+END
+ice_init.F90
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/ice_init.F90
+END
+job.ll
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/job.ll
+END
+gen_forcing_ocean.F90
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_forcing_ocean.F90
+END
+oce_cavity.F90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_cavity.F90
+END
+oce_dens_press.F90
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_dens_press.F90
+END
+oce_rhs_dyn.F90
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_rhs_dyn.F90
+END
+job.ll.dkrz
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/job.ll.dkrz
+END
+oce_mixing_tidal.F90
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_mixing_tidal.F90
+END
+gen_partitioning.F90
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_partitioning.F90
+END
+oce_step.F90
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_step.F90
+END
+tide_potential.F90
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/tide_potential.F90
+END
+gen_support.F90
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_support.F90
+END
+cpl_modules.F90
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/cpl_modules.F90
+END
+gen_modules_forcing.F90
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_modules_forcing.F90
+END
+gen_setup_model.F90
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_setup_model.F90
+END
+gen_modules_clock.F90
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_modules_clock.F90
+END
+namelist.config_base
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/namelist.config_base
+END
+fesom_main.F90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/fesom_main.F90
+END
+oce_mixing_my2p5.F90
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_mixing_my2p5.F90
+END
+oce_read_mesh.F90
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_read_mesh.F90
+END
+namelist.ice
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/namelist.ice
+END
+gen_calcmeans.F90
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_calcmeans.F90
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/CMakeLists.txt
+END
+gen_interpolation.F90
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_interpolation.F90
+END
+oce_age_tracer.F90
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_age_tracer.F90
+END
+namelist.diag
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/namelist.diag
+END
+namelist.config
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/namelist.config
+END
+namelist.oce
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/namelist.oce
+END
+fesom_partition_init.F90
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/fesom_partition_init.F90
+END
+oce_rhs_tra.F90
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_rhs_tra.F90
+END
+gen_output.F90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_output.F90
+END
+oce_convection.F90
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_convection.F90
+END
+gen_diag.F90
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_diag.F90
+END
+gen_warning.F90
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_warning.F90
+END
+ice_coupling.F90
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/ice_coupling.F90
+END
+oce_solver.F90
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_solver.F90
+END
+gen_forcing_init.F90
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_forcing_init.F90
+END
+ice_thermo_oce.F90
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/ice_thermo_oce.F90
+END
+namelist.forcing
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/namelist.forcing
+END
+oce_rhs_tra.F90_orig
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_rhs_tra.F90_orig
+END
+job_uncplecham6.ll
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/job_uncplecham6.ll
+END
+ice_dyn.F90
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/ice_dyn.F90
+END
+oce_modules.F90_orig
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/oce_modules.F90_orig
+END
+gen_bulk_formulae.F90
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/gen_bulk_formulae.F90
+END

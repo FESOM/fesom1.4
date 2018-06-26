@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include
+END
+parms_table.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_table.h
+END
+parms_operator.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_operator.h
+END
+parms_comm.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_comm.h
+END
+parms_sys_dbl.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_sys_dbl.h
+END
+parms_viewer.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_viewer.h
+END
+parms_pc.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_pc.h
+END
+parms_solver.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_solver.h
+END
+parms_vec.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_vec.h
+END
+parms_map.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_map.h
+END
+parms_sys.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_sys.h
+END
+parms_mem.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_mem.h
+END
+parms_timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_timer.h
+END
+parms.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms.h
+END
+parms_sys_cmplx.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_sys_cmplx.h
+END
+parms_mat.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/parms_mat.h
+END
+fparms.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/include/fparms.h
+END

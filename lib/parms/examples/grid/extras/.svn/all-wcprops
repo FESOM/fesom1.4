@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/grid/extras
+END
+dd-grid-pwr.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/grid/extras/dd-grid-pwr.cmd
+END
+procfile
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/grid/extras/procfile
+END
+info
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/grid/extras/info
+END
+dd-grid-altix.pbs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/grid/extras/dd-grid-altix.pbs
+END

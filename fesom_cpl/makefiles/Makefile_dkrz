@@ -1,0 +1,195 @@
+#
+# Makefile for FEOM on Blizzard
+#
+FOSD = /pf/a/a270029/FoSSI-1.43
+
+include $(FOSD)/make_fossi.inc
+
+OPT = -q64 -qdpc -O3 -qtune=auto -qsuffix=f=f90 -qrealsize=8 -qintsize=4 -qextname #-C -qextchk -bnoquiet
+
+MPI_INC = /usr/lpp/ppe.poe/include/thread64
+
+CPP = /usr/lib/cpp -P -C
+
+######################################################
+# Preprocessor definition
+
+CPP_DEFS= -DPETSC -Duse_tracer_fct -Dcalcmeans -Duse_diag -Duse_ice -Duse_ice_fct -Dcpl_str -Dallow_calcmeans -Dallow_diag -Duse_sw_pene -D__oasis #-D__uncplecham6
+
+# Options:
+# -DPETSC  
+# -Duse_tracer_gls -Duse_tracer_fct (tg is default)
+# -Duse_ice 
+# -Duse_ice_gls, -Duse_ice_fct (tg is default)
+# -Duse_sw_pene
+# -Duse_cavity
+# -Duse_opbnd_restoring 
+# -Duse_opbnd_tide
+# -Duse_fullfreesurf
+# -Duse_semiimplicit_scheme
+# -Duse_non_hydrostatic 
+# -Dallow_calcmeans 
+# -Dallow_diag
+# -Dtoy_ocean
+# -DVERBOSE
+# -D__oasis or D__uncplecham6 (just one or none can be used; uncoupled without echam forcing is default)
+#
+# NOTE:
+# 1) when use_non_hydrostatic used, use_cori_semi and use_vertvisc_impl can not 
+#       be used at the same time. Anyway, nobody expects to use both in this case.
+# 2) use_fullfreesurf does not support use_open_boundary currently
+# 3) use_cavity only works with sigma grid currently
+######################################################
+
+
+METLIB = metis
+LIB_FOSSI =  -lFoSSI1.43-IBM-64
+
+PETSCCONF_INC=-I/pf/sw/aix61/petsc-3.0.0-p12/include
+PETSC_INC    =  /pf/sw/aix61/petsc-3.0.0-p12/rs6000-ibm-aix/include
+PETSC_LPATH  =  /pf/sw/aix61/petsc-3.0.0-p12/rs6000-ibm-aix/lib
+
+# NetCDF library and include paths
+#NETCDFROOT     = /sw/aix53/netcdf-3.6.3-ibm
+
+NETCDFROOT     = /sw/aix61/netcdf-4.1.1-rc1
+NCLIB     = -L$(NETCDFROOT)/lib -lnetcdf
+NCINC     = -I$(NETCDFROOT)/include
+
+HDF5ROOT = /sw/aix61/hdf5-1.8.4-patch1
+HDF5_LIB = -L$(HDF5ROOT)/lib -lhdf5_hl -lhdf5
+
+SZLIB = -L/sw/aix53/szip-2.1/lib -lsz -L/sw/aix53/zlib-1.2.3/lib -lz
+
+#OASIS3-MCT
+OASIS3_ROOT    = $(HOME)/fesom_echam6_oasis3-mct/oasis3-mct
+OASIS3_INC     = -I$(OASIS3_ROOT)/prism/ibm_power6/build/lib/psmile.MPI1
+OASIS3_LIB     = -L$(OASIS3_ROOT)/prism/ibm_power6/lib -lpsmile.MPI1 -lscrip -lmct -lmpeu 
+
+# OASIS4
+OASIS4_ROOT    = $(HOME)/fesom_echam_coupled/oasis4/ibm_power6
+OASIS4_INC     = -I$(OASIS4_ROOT)/build/lib/psmile_oa4.MPI2
+OASIS4_LIB     = -L$(OASIS4_ROOT)/lib -lpsmile_oa4.MPI2 -lcommon_oa4 -lmpp_io
+#---------------------------------------------------
+# XML
+XML_INCLUDE  = -I /usr/include/libxml2
+XMLLIB       = -lxml2
+
+LIB_DIRS = -L$(FOSD)/lib $(RPATH)
+LIB_METIS = -L$(METIS_LPATH) -l$(METLIB)
+LIB_PET= -I$(PETSC_INC) -L$(PETSC_LPATH) -lpetscksp -lpetscsnes -lpetscvec -lpetscmat  -lpetsc -lpetscdm $(X11_PATH) -lX11
+
+
+
+LIBS_SLV = $(LIB_DIRS) $(LIB_FOSSI) $(LIB_METIS) $(LIB_PET) $(LIB_LAP) $(LIB_MPI) $(LIB_EXTRA)
+
+
+
+FOS_INC = $(FOSD)/include 
+MPI_INC = /usr/lpp/ppe.poe/include/thread64
+
+
+FC = mpxlf90_r
+LD = $(FC)
+
+LIBS       = -lmpi
+#LIBS       = -lPEPCF90 -L/opt/lam/lib -llamf77mpi -lmpi -llam -lpthread
+#INCLUDES   = -I/opt/lam/include
+
+
+SLV=petsc
+
+#######################################################
+
+# modules
+MODULES =       oce_modules.o                           \
+                ice_modules.o                           \
+		gen_modules_config.o			\
+                gen_modules_clock.o                     \
+                gen_modules_rotate_grid.o               \
+                gen_modules_read_NetCDF.o               \
+                gen_modules_forcing.o                   \
+                gen_modules_diagnose.o                  \
+                oce_mixing_kpp.o                        \
+                oce_mixing_pp.o                         \
+                oce_mixing_my2p5.o                      \
+                oce_mixing_tidal.o                      \
+                oce_age_tracer.o                        \
+                oce_passive_tracer.o  			\
+		cpl_modules.o				\
+		cpl_driver.o
+
+# objects
+OBJECTS=        oce_step.o                              \
+                oce_init.o                              \
+                oce_init_special_case.o                 \
+                oce_dens_press.o                        \
+                oce_mesh_setup.o                        \
+                oce_read_mesh.o                         \
+                oce_matrices.o                          \
+                oce_rhs_dyn.o                           \
+                oce_rhs_tra.o                           \
+                oce_fct.o                               \
+                oce_convection.o                        \
+                oce_open_boundary.o                     \
+                oce_cavity.o                            \
+                oce_tidal_boundary.o                    \
+                oce_shortwave_pene.o                    \
+                oce_salt_balance.o                      \
+                oce_landice_water.o                     \
+                oce_solver.o                            \
+		oce_brine_rejection.o			\
+		oce_mesh_aux.o				\
+                ice_coupling.o                          \
+                ice_step.o                              \
+                ice_init.o                              \
+                ice_thermo.o                            \
+                ice_advection.o                         \
+                ice_fct.o                               \
+                ice_dyn.o                               \
+                ice_solver.o                            \
+                gen_partitioning.o                      \
+                gen_communication.o                     \
+                gen_forcing_init.o                      \
+                gen_forcing_ocean.o                     \
+                gen_forcing_couple.o                    \
+                gen_bulk_formulae.o                     \
+                gen_input.o                             \
+                gen_output.o                            \
+                gen_calcmeans.o                         \
+                gen_interpolation.o                     \
+                gen_setup_model.o                       \
+                gen_diag.o                              \
+                gen_warning.o                           \
+                gen_support.o                           \
+		gen_output_mesh.o			\
+                fesom_main.o          			\
+		cpl_str2unstr.o				\
+		cpl_ncout.o
+######################################################
+
+
+EXE = fesom.x
+
+CPP = /usr/lib/cpp -P -C
+
+
+$(EXE) : $(MODULES) $(OBJECTS) 
+	rm -f $@
+	$(LD)  $(OPT) -o $@  $(MODULES) $(OASIS3_LIB) $(OBJECTS) $(NCLIB) -lnetcdf $(HDF5_LIB) $(SZLIB) $(LIBS_SLV) $(XMLLIB) -lessl
+
+
+.SUFFIXES: .F90 .o 
+
+.F90.o :
+	$(CPP) $(CPP_DEFS) -I$(PETSC_INC) $(PETSCCONF_INC) -I$(FOS_INC) -I$(MPI_INC) $(NCINC)< $*.F90 > $*.f90
+	$(FC) $(OPT) -c $*.f90 $(NCINC) $(OASIS3_INC) $(XML_INCLUDE) -I$(FOS_INC)
+	rm -f  $*.f90
+
+
+
+clean :
+	rm -f $(EXE) *.o *.mod
+
+
+

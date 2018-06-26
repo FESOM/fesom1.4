@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/3rdparty/yaml-cpp/yaml-cpp-release-0.3.0
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/3rdparty/yaml-cpp/yaml-cpp-release-0.3.0/license.txt
+END
+yaml-cpp.pc.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/3rdparty/yaml-cpp/yaml-cpp-release-0.3.0/yaml-cpp.pc.cmake
+END
+install.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/3rdparty/yaml-cpp/yaml-cpp-release-0.3.0/install.txt
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/3rdparty/yaml-cpp/yaml-cpp-release-0.3.0/CMakeLists.txt
+END

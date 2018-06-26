@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/cmake
+END
+FindBLAS.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/cmake/FindBLAS.cmake
+END
+FindNETCDF.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/cmake/FindNETCDF.cmake
+END
+FindHDF5.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/cmake/FindHDF5.cmake
+END

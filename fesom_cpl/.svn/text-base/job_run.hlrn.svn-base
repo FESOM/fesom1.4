@@ -1,0 +1,27 @@
+#!/bin/bash
+#PBS -j oe
+#PBS -N run_N1920
+#PBS -l walltime=02:00:00
+#PBS -l nodes=460:ppn=6
+#PBS -q mpp2q
+#PBS -A hbk00044
+#PBS -V
+
+echo $NCPUS
+module load atp
+export ATP_ENABLED=1
+
+export OMP_WAIT_POLICY=PASSIVE
+export CRAY_OMP_CHECK_AFFINITY=TRUE
+export OMP_NUM_THREADS=1
+
+module swap PrgEnv-cray PrgEnv-intel
+module swap cray-mpich cray-mpich
+
+export F_UFMTENDIAN=big
+
+cd $PBS_O_WORKDIR
+
+date
+aprun -B ./fesom_ini.x -printconfig T
+date

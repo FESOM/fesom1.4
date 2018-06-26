@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Graphs
+END
+4elt.graph
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Graphs/4elt.graph
+END
+metis.mesh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Graphs/metis.mesh
+END
+test.mgraph
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Graphs/test.mgraph
+END
+0README
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Graphs/0README
+END

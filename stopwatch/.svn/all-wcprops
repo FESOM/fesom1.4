@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/stopwatch
+END
+Stopwatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/stopwatch/Stopwatch.h
+END
+StopwatchManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/stopwatch/StopwatchManager.cpp
+END
+StopwatchManagerHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/stopwatch/StopwatchManagerHelper.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/stopwatch/CMakeLists.txt
+END
+Stopwatch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/stopwatch/Stopwatch.cpp
+END
+StopwatchManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/stopwatch/StopwatchManager.h
+END
+StopwatchManagerHelper.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/stopwatch/StopwatchManagerHelper.h
+END

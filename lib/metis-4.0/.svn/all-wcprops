@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0
+END
+FILES
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/FILES
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Makefile.in
+END
+VERSION
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/VERSION
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/INSTALL
+END
+CHANGES
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/CHANGES
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/metis-4.0/Makefile
+END

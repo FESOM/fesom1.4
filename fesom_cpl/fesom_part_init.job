@@ -1,0 +1,55 @@
+#! /client/bin/ksh -eu
+
+# @ job_name         = fesom_part_init
+# @ shell            = /client/bin/ksh
+# @ output           = $(job_name).llout
+# @ error            = $(job_name).llerr
+# @ notification     = never
+# @ account_no       = ba0771
+# @ job_type         = parallel
+# @ node_usage       = not_shared
+# @ total_tasks      = 512
+# @ task_affinity    = cpu(1)
+# @ network.MPI      = sn_all,not_shared,us
+# @ wall_clock_limit = 00:05:00
+# @ queue
+
+#---- total PE number (please adjust accordingly)
+npes=512
+
+#---- shared FESOM mesh directory
+FESOM_meshpath=/work/ba0771/fesom_meshes/mesh_TR
+
+#---- directory for current distribution
+dist_mesh_dir=$FESOM_meshpath/dist$npes
+
+if [ -d $dist_mesh_dir ]; then
+  echo Directory $dist_mesh_dir already exists.
+  echo Nothing to do.
+  exit
+else
+  umask 022
+  mkdir -p $dist_mesh_dir
+fi
+
+cd $HOME/fesom_echam6_oasis3-mct/fesom_cpl
+
+#---- update default FESOM namelist
+sed -e "s@<meshpath>@\'$FESOM_meshpath/\'@g" namelist.config_base >namelist.config
+
+export MEMORY_AFFINITY=MCM
+export MP_SINGLE_THREAD=yes
+export MP_SHARED_MEMORY=yes
+export MP_INFOLEVEL=0
+
+echo Welcome on `hostname`
+
+echo FESOM started at: `date`
+
+poe ./fesom.x
+
+echo FESOM ended at: `date`
+
+echo Directory `ls -dp $dist_mesh_dir` created.
+
+exit

@@ -1,0 +1,166 @@
+FOSD = /sw/numerics/fossi/1.32petsc
+include $(FOSD)/make_fossi.inc
+
+#OPT=  -mieee-fp -O3 -g -fpp -r8 #-O3 -xT -r8 -fdefault-real-8 -xT
+
+OPT=  -O3 -g -fpp -r8
+
+CPP = /usr/bin/cpp -P -C
+
+######################################################
+# Preprocessor definition
+
+CPP_DEFS= -DPETSC -Duse_tracer_fct -Dcalcmeans -Duse_diag -Duse_ice -Duse_ice_fct -Dcpl_str -Dallow_calcmeans -Dallow_diag -Duse_sw_pene -D__oasis #-D__uncplecham6
+
+# Options:
+# -DPETSC  
+# -Duse_tracer_gls -Duse_tracer_fct (tg is default)
+# -Duse_ice 
+# -Duse_ice_gls, -Duse_ice_fct (tg is default)
+# -Duse_sw_pene
+# -Duse_cavity
+# -Duse_opbnd_restoring 
+# -Duse_opbnd_tide
+# -Duse_fullfreesurf
+# -Duse_semiimplicit_scheme
+# -Duse_non_hydrostatic 
+# -Dallow_calcmeans 
+# -Dallow_diag
+# -Dtoy_ocean
+# -DVERBOSE
+# -D__oasis or D__uncplecham6 (just one or none can be used; uncoupled without echam forcing is default)
+#
+# NOTE:
+# 1) when use_non_hydrostatic used, use_cori_semi and use_vertvisc_impl can not 
+#       be used at the same time. Anyway, nobody expects to use both in this case.
+# 2) use_fullfreesurf does not support use_open_boundary currently
+# 3) use_cavity only works with sigma grid currently
+######################################################
+
+
+#LIB_FOSSI =  -lFoSSI1.43-IBM-64
+
+#PETSCCONF_INC=/sw/numerics/petsc/2.3.2-p10/bmake/linux-gnu-intel-sse3-mvapich2
+
+# NetCDF library and include paths
+#NETCDFROOT     = /sw/aix53/netcdf-3.6.3-ibm
+
+# NetCDF library and include definitions
+#    (use 'module load netcdf')
+NCLIB   = -L$(NETCDF_LIB) -lnetcdf -lnetcdff
+NCINC   = -I$(NETCDF_INC)
+
+# Include path for MPI header file
+MPIDIR      = /sw/comm/mvapich2/1.4.1-intel
+MPI_INC = -I$(MPIDIR)/include
+MPILIB      = -L$(MPIDIR)/lib
+
+#OASIS3-MCT
+OASIS3_ROOT    = $(HOME)/fesom_echam6_oasis3-mct/oasis3-mct
+OASIS3_INC     = -I$(OASIS3_ROOT)/prism/hlrn/build/lib/psmile.MPI1 -I$(OASIS3_ROOT)/prism/hlrn/build/lib/mct
+OASIS3_LIB     = -L$(OASIS3_ROOT)/prism/hlrn/lib -lpsmile.MPI1 -lscrip -lmct -lmpeu 
+
+#---------------------------------------------------
+#solver
+LIB_DIRS = -L$(FOSD)/lib $(RPATH)
+LIB_X11 =  $(X11_PATH) -lX11
+LIB_METIS = -L$(METIS_LPATH) -l$(METLIB)
+LIB_PET= -I$(PETSC_INC) -L$(PETSC_LPATH) -lpetscksp -lpetscsnes -lpetscmat -lpetscvec -lpetsc -lpetscdm $(LIB_X11)
+LIB_SLV = $(LIB_DIRS) $(LIB_FOSSI) $(LIB_METIS) $(LIB_PET) $(LIB_LAP) $(LIB_MPI) $(LIB_EXTRA) $(LIB_X11)
+
+
+FOS_INC = -I$(FOSD)/include
+FC = mpif90
+LD = mpif90
+
+LIBS = -lmkl_intel_lp64 -lmkl_intel_thread -lmkl_core -lguide
+
+SLV=petsc
+
+#######################################################
+
+# modules
+MODULES =       oce_modules.o                           \
+                ice_modules.o                           \
+		gen_modules_config.o			\
+                gen_modules_clock.o                     \
+                gen_modules_rotate_grid.o               \
+                gen_modules_read_NetCDF.o               \
+                gen_modules_forcing.o                   \
+                gen_modules_diagnose.o                  \
+                oce_mixing_kpp.o                        \
+                oce_mixing_pp.o                         \
+                oce_mixing_my2p5.o                      \
+                oce_mixing_tidal.o                      \
+                oce_age_tracer.o                        \
+                oce_passive_tracer.o  			\
+		cpl_modules.o				\
+		cpl_driver.o
+
+# objects
+OBJECTS=        oce_step.o                              \
+                oce_init.o                              \
+                oce_init_special_case.o                 \
+                oce_dens_press.o                        \
+                oce_mesh_setup.o                        \
+                oce_read_mesh.o                         \
+                oce_matrices.o                          \
+                oce_rhs_dyn.o                           \
+                oce_rhs_tra.o                           \
+                oce_fct.o                               \
+                oce_convection.o                        \
+                oce_open_boundary.o                     \
+                oce_cavity.o                            \
+                oce_tidal_boundary.o                    \
+                oce_shortwave_pene.o                    \
+                oce_salt_balance.o                      \
+                oce_landice_water.o                     \
+                oce_solver.o                            \
+		oce_brine_rejection.o			\
+		oce_mesh_aux.o				\
+                ice_coupling.o                          \
+                ice_step.o                              \
+                ice_init.o                              \
+                ice_thermo.o                            \
+                ice_advection.o                         \
+                ice_fct.o                               \
+                ice_dyn.o                               \
+                ice_solver.o                            \
+                gen_partitioning.o                      \
+                gen_communication.o                     \
+                gen_forcing_init.o                      \
+                gen_forcing_ocean.o                     \
+                gen_forcing_couple.o                    \
+                gen_bulk_formulae.o                     \
+                gen_input.o                             \
+                gen_output.o                            \
+                gen_calcmeans.o                         \
+                gen_interpolation.o                     \
+                gen_setup_model.o                       \
+                gen_diag.o                              \
+                gen_warning.o                           \
+                gen_support.o                           \
+		gen_output_mesh.o			\
+                fesom_main.o          			\
+		cpl_str2unstr.o				\
+		cpl_ncout.o
+######################################################
+
+
+EXE = fesom.x
+
+$(EXE): $(MODULES) $(OBJECTS)
+	rm -f $(EXE)
+	$(LD)  $(OPT) -o $(EXE) $(FOS_INC) $(MODULES) $(OBJECTS) $(LIB_SLV) $(MPILIB) $(OASIS3_LIB) $(LIBS) $(NCLIB)
+
+.SUFFIXES: .F90 .o 
+
+.F90.o :
+	$(FC) $(CPP_DEFS) $(OPT) -c $*.F90 $(NCINC) $(OASIS3_INC) $(XML_INCLUDE) $(FOS_INC) -I$(PETSC_INC) -I$(PETSCCONF_INC) $(MPI_INC)
+
+
+clean :
+	rm -f $(EXE) *.o *.mod
+
+
+

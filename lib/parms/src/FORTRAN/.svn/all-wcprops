@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/FORTRAN
+END
+parms_solverf.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/FORTRAN/parms_solverf.c
+END
+parms_mapf.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/FORTRAN/parms_mapf.c
+END
+parms_vecf.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/FORTRAN/parms_vecf.c
+END
+parms_timerf.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/FORTRAN/parms_timerf.c
+END
+parms_matf.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/FORTRAN/parms_matf.c
+END
+parms_viewerf.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/FORTRAN/parms_viewerf.c
+END
+parms_pcf.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/FORTRAN/parms_pcf.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/FORTRAN/README
+END

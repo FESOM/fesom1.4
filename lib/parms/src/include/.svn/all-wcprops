@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/include
+END
+parms_table_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/include/parms_table_impl.h
+END
+parms_solver_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/include/parms_solver_impl.h
+END
+parms_comm_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/include/parms_comm_impl.h
+END
+parms_map_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/include/parms_map_impl.h
+END
+parms_timer_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/include/parms_timer_impl.h
+END
+parms_mat_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/include/parms_mat_impl.h
+END
+parms_viewer_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/include/parms_viewer_impl.h
+END
+parms_opt_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/include/parms_opt_impl.h
+END
+parms_pc_impl.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/src/include/parms_pc_impl.h
+END

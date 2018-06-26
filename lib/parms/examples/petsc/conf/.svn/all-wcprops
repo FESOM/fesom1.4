@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/conf
+END
+makefile.in_laptop
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/conf/makefile.in_laptop
+END
+makefile.blade_intel_ompi
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/conf/makefile.blade_intel_ompi
+END
+makefile.itasca_impi
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/petsc/conf/makefile.itasca_impi
+END

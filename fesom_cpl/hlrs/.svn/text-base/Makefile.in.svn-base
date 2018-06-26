@@ -1,0 +1,59 @@
+
+# Compiler and Linker
+CC = icc 
+FC = ftn 
+LD = $(FC)
+
+# Optimization specs for compiler
+OPT  = -r8 -i4 -O3 -fp-model precise -no-fast-transcendentals -fpe0 -implicitnone -traceback #-g -traceback -check noarg_temp_created
+COPT = -O3 -DLINUX -DUNDER_ -DMPI2 -Iinclude
+
+######################################################
+
+# Include path for MPI header file
+MPIROOT            = $(MPICH_DIR)
+MPI_LIB            = -L$(MPIROOT)/lib -lmpich_intel -lmpl -lmpichf90_intel
+MPI_INCLUDE        = -I$(MPIROOT)/include
+
+# NetCDF library and include definitions
+#    (use 'module load netcdf')
+NCLIB   = -L$(NETCDF_DIR)/lib -lnetcdff -lnetcdf 
+NCINC   = -I$(NETCDF_DIR)/include
+
+# Definition of LAPACK include and library (if not provided by FoSSI)
+LIB_LAP = #-L/opt/intel/mkl/lib/intel64 -Llibmkl_rt.so 
+
+# Further libraries
+LIBS = 
+
+# Definition of pARMS include and library
+PARMS_DIR = ../lib/parms
+PARMS_INC = -I$(PARMS_DIR)/include -I$(PARMS_DIR)/src/include
+PARMS_DEFS = -DPARMS -DUSE_MPI -DREAL=double -DDBL -DHAS_BLAS -DFORTRAN_UNDERSCORE -DUNDER_ -DVOID_POINTER_SIZE_8  -DSGI
+LIB_PARMS = -L$(PARMS_DIR)/lib -lparms
+
+# Definition for Metis library
+METIS_LPATH = ../lib/metis-4.0
+LIB_METIS = -L$(METIS_LPATH) -lmetis
+
+#OASIS3-MCT
+OASIS3_ROOT    = $(HOME)/fesom_echam6_oasis3-mct/oasis3-mct
+OASIS3_INC     = -I$(OASIS3_ROOT)/prism/hlrn/build/lib/psmile.MPI1 -I$(OASIS3_ROOT)/prism/hlrn/build/lib/mct
+OASIS3_LIB     = -L$(OASIS3_ROOT)/prism/hlrn/lib -lpsmile.MPI1 -lscrip -lmct -lmpeu 
+
+######################################################
+#
+# Preprocessor
+CPP = /usr/bin/cpp -P -C
+
+# Define solver library
+CPP_SOL = -DPARMS
+
+# Options:
+#   -DPARMS  - Define that pARMS solver is used
+#   -DPETSC  - Define that PETSC is used
+
+######################################################
+# Preprocessor definition
+
+CPP_DEFS= -Duse_tracer_fct -Dcalcmeans -Duse_diag -Duse_ice -Duse_ice_fct -Dcpl_str -Dallow_calcmeans -Dallow_diag -D__oasis -Duse_sw_pene 

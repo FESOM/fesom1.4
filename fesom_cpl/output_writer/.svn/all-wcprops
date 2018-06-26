@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer
+END
+OceanLevelsOutputWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer/OceanLevelsOutputWriter.cpp
+END
+OutputWriterUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer/OutputWriterUtils.cpp
+END
+OutputWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer/OutputWriter.h
+END
+OceanLevelsOutputWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer/OceanLevelsOutputWriter.h
+END
+OutputWriterUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer/OutputWriterUtils.h
+END
+OutputWriterFC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer/OutputWriterFC.cpp
+END
+OutputWriterManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer/OutputWriterManager.cpp
+END
+OutputWriterFC.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer/OutputWriterFC.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer/CMakeLists.txt
+END
+OutputWriterThing.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer/OutputWriterThing.h
+END
+OutputWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer/OutputWriter.cpp
+END
+OutputWriterManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/fesom_cpl/output_writer/OutputWriterManager.h
+END

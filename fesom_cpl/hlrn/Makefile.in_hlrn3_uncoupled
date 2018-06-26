@@ -1,0 +1,67 @@
+
+# Compiler and Linker
+CC = icc 
+FC = ifort
+LD = $(FC)
+
+# Optimization specs for compiler
+OPT  = -r8 -i4 -O3 -no-prec-div -no-prec-sqrt -fast-transcendentals -xHost -ip -fp-model precise
+COPT = -O3 -DLINUX -DUNDER_ -DMPI2 -Iinclude
+
+######################################################
+
+# Include path for MPI header file
+MPIROOT            = $(MPICH_DIR)
+MPI_LIB            = -L$(MPIROOT)/lib -lmpich_intel -lmpl -lmpichf90_intel
+MPI_INCLUDE        = -I$(MPIROOT)/include
+
+# NetCDF library and include definitions
+#    (use 'module load netcdf')
+NCDIR   = /opt/cray/netcdf/4.3.2/INTEL/140
+NCLIB   = -L$(NCDIR)/lib -lnetcdff -lnetcdf 
+NCINC   = -I$(NCDIR)/include
+
+# Definition of LAPACK 
+# (Path to MKL provided by PrgEnv-intel) 
+LIB_LAP =  -lmkl_rt 
+
+# Definition of X11 library (required for PETSC)
+LIB_X11 =  $(X11_PATH) -lX11
+
+# Definition of X11 library (required for PETSC)
+LIB_DDT = -L/opt/cray/ddt/default/lib/64/ -ldmallocxx
+
+# Further libraries
+LIBS = 
+
+# Definition of pARMS include and library
+PARMS_DIR = ../lib/parms
+PARMS_INC = -I$(PARMS_DIR)/include -I$(PARMS_DIR)/src/include
+PARMS_DEFS = -DPARMS -DUSE_MPI -DREAL=double -DDBL -DHAS_BLAS -DFORTRAN_UNDERSCORE -DUNDER_ -DVOID_POINTER_SIZE_8  -DSGI
+LIB_PARMS = -L$(PARMS_DIR)/lib -lparms
+
+# Definition for Metis library
+METIS_LPATH = ../lib/metis-4.0
+LIB_METIS = -L$(METIS_LPATH) -lmetis
+
+#OASIS3-MCT
+OASIS3_ROOT    = 
+OASIS3_INC     = 
+OASIS3_LIB     = 
+
+######################################################
+#
+# Preprocessor
+CPP = /usr/bin/cpp -P -C
+
+# Define solver library
+CPP_SOL = -DPARMS
+
+# Options:
+#   -DPARMS  - Define that pARMS solver is used
+#   -DPETSC  - Define that PETSC is used
+
+######################################################
+# Preprocessor definition
+
+CPP_DEFS= -Duse_tracer_fct -Dcalcmeans -Duse_diag -Duse_ice -Duse_ice_fct -Dcpl_str -Dallow_calcmeans -Dallow_diag -Duse_sw_pene #-D__oasis

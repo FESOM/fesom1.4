@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/general
+END
+fdd-HB-dse.F
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/general/fdd-HB-dse.F
+END
+inputs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/general/inputs
+END
+aux.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/general/aux.h
+END
+matfileCmplx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/general/matfileCmplx
+END
+matfileReal
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/general/matfileReal
+END
+inputs_explanations
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/general/inputs_explanations
+END
+dd-HB-dse.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/general/dd-HB-dse.c
+END
+faux.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/general/faux.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/general/README
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/general/makefile
+END
+aux.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/awi-cm/!svn/ver/550/tags/CMIP6/lib/parms/examples/general/aux.c
+END
