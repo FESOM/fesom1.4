@@ -8,6 +8,7 @@ endif()
 
 project(FESOM-1.4)
 set(TOPLEVEL_DIR ${CMAKE_CURRENT_LIST_DIR})
-set(FESOM_COUPLED ON CACHE BOOL "compile fesom standalone or with oasis support (i.e. coupled)")
+set(FESOM_COUPLED OFF CACHE BOOL "compile fesom standalone or with oasis support (i.e. coupled)")
+set(FESOM_RECOM OFF CACHE BOOL "compile fesom with or without BGC model recom")
 
 add_subdirectory(fesom_cpl)

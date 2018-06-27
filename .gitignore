@@ -1,0 +1,6 @@
+# ignore possible recom subfolder
+recom
+
+# ignore build and bin folders
+build
+bin
