@@ -6,9 +6,9 @@ if(NOT CMAKE_BUILD_TYPE)
 	set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Choose the type of build, options are: None(CMAKE_CXX_FLAGS or CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.")
 endif()
 
-project(FESOM-1.4)
+project(fesom)
 set(TOPLEVEL_DIR ${CMAKE_CURRENT_LIST_DIR})
 set(FESOM_COUPLED OFF CACHE BOOL "compile fesom standalone or with oasis support (i.e. coupled)")
-set(FESOM_RECOM OFF CACHE BOOL "compile fesom with or without BGC model recom")
+set(FESOM_RECOM ON CACHE BOOL "compile fesom with or without BGC model recom")
 
 add_subdirectory(fesom_cpl)
