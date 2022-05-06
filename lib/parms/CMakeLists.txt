@@ -18,4 +18,8 @@ target_include_directories(${PROJECT_NAME}
 target_link_libraries(${PROJECT_NAME} INTERFACE ${BLAS_C_LIBRARIES})
 if(${CMAKE_C_COMPILER_ID} STREQUAL "Intel")
 	target_compile_options(${PROJECT_NAME} PRIVATE -no-prec-div -no-prec-sqrt -fast-transcendentals -fp-model precise)
+    cmake_host_system_information(RESULT host_name QUERY HOSTNAME)
+    if(host_name MATCHES "^levante.*$")
+        target_compile_options(${PROJECT_NAME} PRIVATE -march=core-avx2 -mtune=core-avx2)
+    endif()
 endif()
